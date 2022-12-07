@@ -1,0 +1,202 @@
+[
+  {
+    "year": 2002,
+    "conference": "CHI",
+    "number": 48
+  },
+  {
+    "year": 2002,
+    "conference": "NeurIPS",
+    "number": 135
+  },
+  {
+    "year": 2003,
+    "conference": "CHI",
+    "number": 46
+  },
+  {
+    "year": 2003,
+    "conference": "NeurIPS",
+    "number": 128
+  },
+  {
+    "year": 2004,
+    "conference": "CHI",
+    "number": 61
+  },
+  {
+    "year": 2004,
+    "conference": "NeurIPS",
+    "number": 125
+  },
+  {
+    "year": 2005,
+    "conference": "CHI",
+    "number": 56
+  },
+  {
+    "year": 2005,
+    "conference": "NeurIPS",
+    "number": 136
+  },
+  {
+    "year": 2006,
+    "conference": "CHI",
+    "number": 99
+  },
+  {
+    "year": 2006,
+    "conference": "NeurIPS",
+    "number": 137
+  },
+  {
+    "year": 2007,
+    "conference": "CHI",
+    "number": 137
+  },
+  {
+    "year": 2007,
+    "conference": "NeurIPS",
+    "number": 140
+  },
+  {
+    "year": 2008,
+    "conference": "CHI",
+    "number": 157
+  },
+  {
+    "year": 2008,
+    "conference": "NeurIPS",
+    "number": 175
+  },
+  {
+    "year": 2009,
+    "conference": "CHI",
+    "number": 198
+  },
+  {
+    "year": 2009,
+    "conference": "NeurIPS",
+    "number": 178
+  },
+  {
+    "year": 2010,
+    "conference": "CHI",
+    "number": 221
+  },
+  {
+    "year": 2010,
+    "conference": "NeurIPS",
+    "number": 207
+  },
+  {
+    "year": 2011,
+    "conference": "CHI",
+    "number": 302
+  },
+  {
+    "year": 2011,
+    "conference": "NeurIPS",
+    "number": 216
+  },
+  {
+    "year": 2012,
+    "conference": "CHI",
+    "number": 285
+  },
+  {
+    "year": 2012,
+    "conference": "NeurIPS",
+    "number": 244
+  },
+  {
+    "year": 2013,
+    "conference": "CHI",
+    "number": 300
+  },
+  {
+    "year": 2013,
+    "conference": "NeurIPS",
+    "number": 262
+  },
+  {
+    "year": 2014,
+    "conference": "CHI",
+    "number": 355
+  },
+  {
+    "year": 2014,
+    "conference": "NeurIPS",
+    "number": 283
+  },
+  {
+    "year": 2015,
+    "conference": "CHI",
+    "number": 380
+  },
+  {
+    "year": 2015,
+    "conference": "NeurIPS",
+    "number": 288
+  },
+  {
+    "year": 2016,
+    "conference": "CHI",
+    "number": 423
+  },
+  {
+    "year": 2016,
+    "conference": "NeurIPS",
+    "number": 419
+  },
+  {
+    "year": 2017,
+    "conference": "CHI",
+    "number": 457
+  },
+  {
+    "year": 2017,
+    "conference": "NeurIPS",
+    "number": 491
+  },
+  {
+    "year": 2018,
+    "conference": "CHI",
+    "number": 512
+  },
+  {
+    "year": 2018,
+    "conference": "NeurIPS",
+    "number": 744
+  },
+  {
+    "year": 2019,
+    "conference": "CHI",
+    "number": 539
+  },
+  {
+    "year": 2019,
+    "conference": "NeurIPS",
+    "number": 1013
+  },
+  {
+    "year": 2020,
+    "conference": "CHI",
+    "number": 601
+  },
+  {
+    "year": 2020,
+    "conference": "NeurIPS",
+    "number": 1366
+  },
+  {
+    "year": 2021,
+    "conference": "CHI",
+    "number": 582
+  },
+  {
+    "year": 2021,
+    "conference": "NeurIPS",
+    "number": 1607
+  }
+]

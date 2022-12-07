@@ -25,9 +25,8 @@ h6 {
 }
 
 .main-body {
-    padding-left: 15px;
-    padding-right: 15px;
     margin-bottom: 2rem;
+    width: 100%;
 }
 
 select {
@@ -56,7 +55,7 @@ ol {
 }
 
 .refs {
-    padding: 0.1rem 0 5rem 0;
+    padding: 0.1rem 0 3rem 0;
     background-color: #eee;
     /* padding-bottom: 5rem; */
 }
