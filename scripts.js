@@ -68,7 +68,7 @@ function heatmapTitles() {
                 nYears.push(i);
             }
         }
-        console.log(z);
+
         var data = [{
             z: z,
             x: nYears,
@@ -82,9 +82,56 @@ function heatmapTitles() {
             title: {text: "Cosine Similarity Between CHI and NeurIPS Paper Titles, 2002-2021"},
             xaxis: {autotick: false, title: "NeurIPS Year"},
             yaxis: {autotick: false, title: "CHI Year"},
+            autosize: false,
+            height: 600,
         };
 
         Plotly.newPlot('heatmapTitles', data, layout);
+    })
+}
+
+function heatmapAbstracts() {
+    fetch("https://raw.githubusercontent.com/rrrrrrockpang/rrrrrrockpang.github.io/main/heatmapAbstracts.json")
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (data) {
+
+        let [z, cYears, nYears] = [[], [], []];
+
+        for (let i = 0; i < data.length; i+=19) {
+            zRow = [];
+            for (let j = 0; j < 19; j++) {
+                zRow.push(data[i+j].Score);
+            }
+            z.push(zRow);
+
+        }
+        for (let i = 2001; i < 2021; i++) {
+            cYears.push(i);
+            if (i < 2020) {
+                nYears.push(i);
+            }
+        }
+
+        var data = [{
+            z: z,
+            x: nYears,
+            y: cYears,
+            type: 'heatmap',
+            hoverongaps: false,
+            colorscale: 'YlGnBu',
+        }];
+       
+        var layout = {
+            title: {text: "Cosine Similarity Between CHI and NeurIPS Paper Abstracts, 2002-2021"},
+            xaxis: {autotick: false, title: "NeurIPS Year"},
+            yaxis: {autotick: false, title: "CHI Year"},
+            autosize: false,
+            height: 600,
+        };
+
+        Plotly.newPlot('heatmapAbstracts', data, layout);
     })
 }
 
@@ -98,6 +145,7 @@ $(document).ready(function() {
 
     overviewBarChart();
     heatmapTitles();
+    heatmapAbstracts();
 
 });
 
