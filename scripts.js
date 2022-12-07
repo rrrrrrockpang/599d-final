@@ -46,7 +46,7 @@ function overviewBarChart() {
 }
 
 function heatmapTitles() {
-    fetch("https://raw.githubusercontent.com/rrrrrrockpang/rrrrrrockpang.github.io/main/heatmap.json")
+    fetch("https://raw.githubusercontent.com/rrrrrrockpang/rrrrrrockpang.github.io/main/heatmapTitles.json")
     .then(function (response) {
         return response.json();
     })
