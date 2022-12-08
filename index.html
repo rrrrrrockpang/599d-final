@@ -18,8 +18,8 @@
   <script src="scripts.js"></script>
 
   <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script> -->
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -140,18 +140,38 @@
         <div id="lineChartAbstracts"></div>
         <figcaption>Figure 5: Line chart of cosine similarity among paper abstracts in our dataset. Select a year in one of the conference buttons above to anchor it and see variations in cosine similarity with respect to the entire 20-year span of the other conference.</figcaption>
      
-        <table id="topicsTable" class="table table-hover">
-          <thead>
-            <tr>
-              <th scope="col">Conference</th>
-              <th scope="col">Year</th>
-              <th scope="col">Topic</th>
-              <th scope="col">Number of Papers</th>
-            </tr>
-          </thead>
-          <tbody>
-          </tbody>
-        </table>
+        <div>
+          <!-- <select id="chiYearSelector" class="custom-select" aria-label="CHI Year Selector">
+            <option selected>Select CHI Year</option>
+          </select>
+          <select id="neuripsYearSelector" class="custom-select" aria-label="NeurIPS Year Selector">
+            <option selected>Select NeurIPS Year</option>
+          </select> -->
+
+          <form>
+            <div id="chiYearSelector" class="form-group">
+              <label for="formChiYear">Select CHI Year:</label>
+              <select class="form-control" id="formChiYear"></select>
+            </div>
+            <div id="neuripsYearSelector" class="form-group">
+              <label for="formNeuripsYear">Select CHI Year:</label>
+              <select class="form-control" id="formNeuripsYear"></select>
+            </div>
+          </form>
+
+          <table id="topicsTable" class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Conference</th>
+                <th scope="col">Year</th>
+                <th scope="col">Topic</th>
+                <th scope="col">Number of Papers</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
 
         <p>After obtaining our abstract clusters, we labelled each cluster with a topic by prompting GPT-3 to summarize the cluster into a keyphrase. Due to token limitations in our free trial of the OpenAI API, we chose to only label clusters published in the last 5 years. Below is a table with the cluster labels. </p>
 

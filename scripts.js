@@ -1,5 +1,3 @@
-
-
 function overviewBarChart() {
     fetch("https://raw.githubusercontent.com/rrrrrrockpang/rrrrrrockpang.github.io/main/overview.json")
     .then(function (response) {
@@ -45,50 +43,48 @@ function overviewBarChart() {
     })
 }
 
-function heatmapTitles() {
-    fetch("https://raw.githubusercontent.com/rrrrrrockpang/rrrrrrockpang.github.io/main/heatmapTitles.json")
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (data) {
+// function heatmapTitles() {
+//     fetch("https://raw.githubusercontent.com/rrrrrrockpang/rrrrrrockpang.github.io/main/heatmapTitles.json")
+//     .then(function (response) {
+//         return response.json();
+//     })
+//     .then(function (data) {
         
-        let [z, cYears, nYears] = [[], [], []];
+//         let [z, cYears, nYears] = [[], [], []];
 
-        for (let i = 0; i < data.length; i+=18) {
-            zRow = [];
-            for (let j = 0; j < 18; j++) {
-                zRow.push(data[i+j].score);
-            }
-            z.push(zRow);
+//         for (let i = 0; i < data.length; i+=21) {
+//             zRow = [];
+//             for (let j = 0; j < 21; j++) {
+//                 zRow.push(data[i+j].score);
+//             }
+//             z.push(zRow);
 
-        }
-        for (let i = 2001; i < 2021; i++) {
-            cYears.push(i);
-            if (i < 2019) {
-                nYears.push(i);
-            }
-        }
+//         }
+//         for (let i = 2001; i < 2022; i++) {
+//             cYears.push(i);
+//             nYears.push(i);
+//         }
 
-        var data = [{
-            z: z,
-            x: nYears,
-            y: cYears,
-            type: 'heatmap',
-            hoverongaps: false,
-            colorscale: 'YlGnBu',
-        }];
+//         var data = [{
+//             z: z,
+//             x: nYears,
+//             y: cYears,
+//             type: 'heatmap',
+//             hoverongaps: false,
+//             colorscale: 'YlGnBu',
+//         }];
        
-        var layout = {
-            title: {text: "Cosine Similarity Between CHI and NeurIPS Paper Titles, 2001-2021"},
-            xaxis: {autotick: false, title: "NeurIPS Year"},
-            yaxis: {autotick: false, title: "CHI Year"},
-            autosize: false,
-            height: 600,
-        };
+//         var layout = {
+//             title: {text: "Cosine Similarity Between CHI and NeurIPS Paper Titles, 2001-2021"},
+//             xaxis: {autotick: false, title: "NeurIPS Year"},
+//             yaxis: {autotick: false, title: "CHI Year"},
+//             autosize: false,
+//             height: 600,
+//         };
 
-        // Plotly.newPlot('heatmapTitles', data, layout);
-    })
-}
+//         // Plotly.newPlot('heatmapTitles', data, layout);
+//     })
+// }
 
 function heatmapAbstracts() {
     fetch("https://raw.githubusercontent.com/rrrrrrockpang/rrrrrrockpang.github.io/main/heatmapAbstracts.json")
@@ -99,19 +95,17 @@ function heatmapAbstracts() {
 
         let [z, cYears, nYears] = [[], [], []];
 
-        for (let i = 0; i < data.length; i+=19) {
+        for (let i = 0; i < data.length; i+=21) {
             zRow = [];
-            for (let j = 0; j < 19; j++) {
+            for (let j = 0; j < 21; j++) {
                 zRow.push(data[i+j].Score);
             }
             z.push(zRow);
 
         }
-        for (let i = 2001; i < 2021; i++) {
+        for (let i = 2001; i < 2022; i++) {
             cYears.push(i);
-            if (i < 2020) {
-                nYears.push(i);
-            }
+            nYears.push(i);
         }
 
         var data = [{
@@ -140,13 +134,22 @@ function heatmapAbstracts() {
             chi_item.innerHTML = i;
             $('#chiDropdownYrs').append(chi_item)
 
-            if (i < 2020) {
-                var neurips_item = document.createElement('a');
-                neurips_item.setAttribute('class', 'dropdown-item');
-                neurips_item.setAttribute('onclick', 'lineChartAbstracts(chi_yr=null,neurips_yr='+i+')');
-                neurips_item.innerHTML = i;
-                $('#neuripsDropdownYrs').append(neurips_item);
-            }
+            var neurips_item = document.createElement('a');
+            neurips_item.setAttribute('class', 'dropdown-item');
+            neurips_item.setAttribute('onclick', 'lineChartAbstracts(chi_yr=null,neurips_yr='+i+')');
+            neurips_item.innerHTML = i;
+            $('#neuripsDropdownYrs').append(neurips_item);
+
+
+            var chi_opt = document.createElement('option');
+            // chi_opt.setAttribute('onclick', 'tfidfTopics(chi_yr=null,neurips_yr=null)');
+            chi_opt.innerHTML = i;
+            $('#formChiYear').append(chi_opt)
+
+            var neurips_opt = document.createElement('option');
+            // neurips_opt.setAttribute('onclick', 'tfidfTopics(chi_yr=null,neurips_yr=null)');
+            neurips_opt.innerHTML = i;
+            $('#formNeuripsYear').append(neurips_opt)
         }
     })
 }
@@ -238,13 +241,10 @@ $(document).ready(function() {
     });
 
     overviewBarChart();
-    heatmapTitles();
+    // heatmapTitles();
     heatmapAbstracts();
     lineChartAbstracts(chi_yr=null, neurips_yr=null);
 
-    tfidfTopics(null, null);
+    tfidfTopics(chi_yr=2020, neurips_yr=2020);
 
 });
-
-
-    
