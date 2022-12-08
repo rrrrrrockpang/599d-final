@@ -216,7 +216,7 @@ function tfidfTopics(chi_yr, neurips_yr) {
             for (let j = 0; j < 4; j+=1) {
                 var chi_cluster_data = data[i]["chi_clusters_topics"][j];
                 var chi_row = document.createElement('tr');
-                chi_row.innerHTML = "<td>CHI</td><td>"+chi_year+"</td><td>"+cluster_data["feat"]+"</td><td>"+chi_cluster_data["n"]+"</td>"
+                chi_row.innerHTML = "<td>CHI</td><td>"+chi_year+"</td><td>"+chi_cluster_data["feat"]+"</td><td>"+chi_cluster_data["n"]+"</td>"
                 $('#topicsTable tbody').append(chi_row)
 
                 var neurips_cluster_data = data[i]["neurips_clusters_topics"][j];
