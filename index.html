@@ -63,7 +63,7 @@
       Findings<br>
       Discussion and Future Work<br>
       Conclusion<br>
-      Materials
+      <a href="#materials">Materials</a>
 
     </div>
     <div class="col-lg-6 main-body">
@@ -99,19 +99,21 @@
       <section id="method">
         <h3>Methodology</h3>
         <p>We sourced our papers from <a href="https://dblp.org/">DBLP</a>, a bibliography website for computer science literature. We chose DBLP over DOI, despite DOI being more prevalent among academic citation networks, due to its ability to search papers by venue. We scraped CHI and NeurIPS papers from DBLP published between 2001 and 2021, including only conference proceedings (as opposed to workshop papers) to keep our dataset to a manageable size for analysis on a GPU-constrained cloud environment. While we only scraped paper titles, we then used the Semantic Scholar (S2) API to query papers using our titles to obtaining richer information about each paper, including the abstract and SPECTER embeddings. </p>
-
+    
         <p>Once we had our dataset, we decided to compute our own embeddings as the SPECTER embeddings were not available for all papers in our dataset [maybe stat here on what percentage?]. To do so, we fed our paper titles into SciBERT to obtain a series of embeddings. We the computed an embedding similarity matrix with all combinations of papers via their respective conferences and years. We used cosine similarity as our similarity measurement. We then identify the top <i>n</i> most similar pairs as a filter to preserve literature that may lie close to or in the intersection of the two conferences. We then separate the filtered papers based in their conferences, obtaining a set of CHI papers that are similar to NeurIPS papers (as judged by their embeddings) and vice versa. We then perform k-means clustering within the pools of filtered papers in their respective conferences to look for topical similarities <i>within</i> each conference. With clusters of <i>k</i> papers from each of CHI and NeurIPS, we took the abstracts from those clusters and fed each abstract cluster into GPT-3 to obtain a keyphrase that summarizes the cluster, which we call the cluster's "topic". We then leverage our collection of AI-adjacent HCI topics and HCI-adjacent AI topics to propose future research directions at the intersection of AI and HCI. </p>
       </section>
-
+    
       <figure>
         <img src="./process.png" alt="">
         <figcaption>A visual diagram of our process flow.</figcaption>
       </figure>
-
+    
       <section id="findings">
         <h3>Findings</h3>
+        <p>We analyzed a total of 14,000 papers from CHI and NeurIPS published between 2001 and 2021. To provide an overview of our dataset, we plotted the number of publications in each conference against the year. As per <a href="#overviewBarChart">Figure 1</a>, the size of CHI grew consistently over the years whereas the growth NeurIPS was steady until about 2016, from which it started experiencing much more rapid growth. </p>
         <div id="overviewBarChart"></div>
-        <div id="heatmapTitles"></div>
+        <figcaption>Figure 1: An overview of our dataset, by publication year.</figcaption>
+        <!-- <div id="heatmapTitles"></div> -->
         <div id="heatmapAbstracts"></div>
         <div id="lineChartAbstractButtons" class="selectorDiv">
           
@@ -132,6 +134,14 @@
         </div>
         <div id="lineChartAbstracts"></div>
       </section>
+
+      <section id="materials">
+        <h3>Materials</h3>
+        <a href="">Download our data (.zip)</a><br>
+        <a href="">View our analys code (Google Colab)</a>
+      </section>
+
+      
     </div>
 
   </div>
@@ -139,13 +149,14 @@
   
 
   <div class="refs">
-    <div class="col-lg-6 offset-lg-3">
+    <div class="col-lg-6 offset-lg-3" style="padding: 0">
 
       <!-- Citations -->
       <section id="bib-sec-001"> 
        <header> 
         <div class="title-info"> 
-         <h3 class="page-brake-head"><span class="nav-open" role="button" onclick="openNav(this)" tabindex="0" title="article navigation" >References</span></h3> 
+         <!-- <h3 class="page-brake-head"><span class="nav-open" role="button" onclick="openNav(this)" tabindex="0" title="article navigation" >References</span></h3>  -->
+         <h3>References</h3>
         </div> 
        </header> 
        <ol class="bibUl"> 

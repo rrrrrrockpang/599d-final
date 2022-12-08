@@ -86,7 +86,7 @@ function heatmapTitles() {
             height: 600,
         };
 
-        Plotly.newPlot('heatmapTitles', data, layout);
+        // Plotly.newPlot('heatmapTitles', data, layout);
     })
 }
 
