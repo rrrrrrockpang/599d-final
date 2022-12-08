@@ -127,34 +127,23 @@ function heatmapAbstracts() {
 
         Plotly.newPlot('heatmapAbstracts', data, layout);
 
-        for (let i = 2001; i < 2022; i++) {
-            var chi_item = document.createElement('a');
-            chi_item.setAttribute('class', 'dropdown-item');
-            chi_item.setAttribute('onclick', 'lineChartAbstracts(chi_yr='+i+',neurips_yr=null)');
-            chi_item.innerHTML = i;
-            $('#chiDropdownYrs').append(chi_item)
-
-            var neurips_item = document.createElement('a');
-            neurips_item.setAttribute('class', 'dropdown-item');
-            neurips_item.setAttribute('onclick', 'lineChartAbstracts(chi_yr=null,neurips_yr='+i+')');
-            neurips_item.innerHTML = i;
-            $('#neuripsDropdownYrs').append(neurips_item);
-
+        for (let i = 2021; i > 2000; i--) {
+            var year_opt = document.createElement('option');
+            year_opt.innerHTML = i;
+            $('#abstractYear').append(year_opt);
 
             var chi_opt = document.createElement('option');
-            // chi_opt.setAttribute('onclick', 'tfidfTopics(chi_yr='+i+',neurips_yr='+$('#formNeuripsYear').val()+')');
             chi_opt.innerHTML = i;
             $('#formChiYear').append(chi_opt)
 
             var neurips_opt = document.createElement('option');
-            // neurips_opt.setAttribute('onclick', 'tfidfTopics(chi_yr='+$('#formChiYear').val()+',neurips_yr='+i+')');
             neurips_opt.innerHTML = i;
             $('#formNeuripsYear').append(neurips_opt)
         }
     })
 }
 
-function lineChartAbstracts(chi_yr, neurips_yr) {
+function lineChartAbstracts() {
     fetch("https://raw.githubusercontent.com/rrrrrrockpang/rrrrrrockpang.github.io/main/heatmapAbstracts.json")
     .then(function (response) {
         return response.json();
@@ -162,24 +151,25 @@ function lineChartAbstracts(chi_yr, neurips_yr) {
     .then(function (data) {
 
         let [x, y] = [[], []];
-        let [selected_conf, x_axis, y_axis] = ['', '', ''];
-        if (chi_yr) {
-            selected_conf = 'CHI';
+        let [x_axis, y_axis] = ['', ''];
+        let selected_conf = $('#abstractConf').val();
+        let selected_year = $('#abstractYear').val(); 
+
+        if (selected_conf == 'CHI') {
             x_axis = "NeurIPS Year";
-            y_axis = "Cosine Similarity with " + chi_yr + " " + selected_conf;
+            y_axis = "Cosine Similarity with " + selected_year + " " + selected_conf;
             for (let i = 0; i < data.length; i+=1) {
-                if (data[i].CHI == chi_yr) {
+                if (data[i].CHI == selected_year) {
                     x.push(data[i].NeurIPS);
                     y.push(data[i].Score);
                 }
             }
         }
         else {
-            selected_conf = 'NeurIPS';
             x_axis = "CHI Year";
-            y_axis = "Cosine Similarity with " + neurips_yr + " " + selected_conf;
+            y_axis = "Cosine Similarity with " + selected_year + " " + selected_conf;
             for (let i = 0; i < data.length; i+=1) {
-                if (data[i].NeurIPS == neurips_yr) {
+                if (data[i].NeurIPS == selected_year) {
                     x.push(data[i].CHI);
                     y.push(data[i].Score);
                 }
@@ -249,8 +239,7 @@ $(document).ready(function() {
     overviewBarChart();
     // heatmapTitles();
     heatmapAbstracts();
-    lineChartAbstracts(chi_yr=null, neurips_yr=null);
-
+    lineChartAbstracts();
     tfidfTopics();
 
 });
