@@ -153,7 +153,7 @@
         <div id="lineChartAbstracts"></div>
         <figcaption>Figure 5: Line chart of cosine similarity among paper abstracts in our dataset. Select a conference-year combination using the above selectors to see variations in cosine similarity with respect to the entire 20-year span of the other conference.</figcaption>
 
-        <p>After obtaining our abstract clusters, we labelled each cluster with a topic by prompting GPT-3 (text-davinci-003, temperature = 0.2) to summarize the cluster into a keyphrase. Due to token limitations in our free trial of the OpenAI API, we chose to only label clusters published in the last 5 years. Below is a table with the cluster labels. </p>
+        <p>After obtaining our abstract clusters, we labelled each cluster with a topic by prompting GPT-3 (text-davinci-003, temperature = 0.2) to summarize the cluster into a keyphrase. Due to token limitations in our free trial of the OpenAI API, we chose to only label clusters published in the last 5 years. Even then, the output appeared to require some manual adjustment. For this view below, we show the top TF-IDF feature for each conference/year cluster instead.</p>
      
         <div>
           <form>
