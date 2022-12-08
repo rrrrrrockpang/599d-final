@@ -128,6 +128,7 @@ function heatmapAbstracts() {
 
         Plotly.newPlot('heatmapAbstracts', data, layout);
 
+
         for (let i = 2021; i > 2000; i--) {
             var year_opt = document.createElement('option');
             year_opt.innerHTML = i;
@@ -135,11 +136,22 @@ function heatmapAbstracts() {
 
             var chi_opt = document.createElement('option');
             chi_opt.innerHTML = i;
-            $('#formChiYear').append(chi_opt)
 
             var neurips_opt = document.createElement('option');
             neurips_opt.innerHTML = i;
-            $('#formNeuripsYear').append(neurips_opt)
+            $('#formNeuripsYear').append(neurips_opt);
+
+            $('#formChiYear').append(chi_opt);
+            if (i > 2016) {
+                var chi_opt_g = document.createElement('option');
+                chi_opt_g.innerHTML = i;
+                $('#formChiYearG').append(chi_opt_g);
+
+                var neurips_opt_g = document.createElement('option');
+                neurips_opt_g.innerHTML = i;
+                $('#formNeuripsYearG').append(neurips_opt_g);
+            }
+
         }
     })
 }
@@ -228,6 +240,45 @@ function tfidfTopics() {
     })
 }
 
+function gptTopics() {
+    fetch("https://raw.githubusercontent.com/rrrrrrockpang/rrrrrrockpang.github.io/main/gpt-topics.json")
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (data) {
+        $('#topicsTableG tbody').empty();
+        var selected_chi_year = $('#formChiYearG').val();
+        var selected_neurips_year = $('#formNeuripsYearG').val()
+        for (let i = 0; i < data.length; i+=1) {
+            var chi_year = data[i]["chi_year"]
+            var neurips_year = data[i]["neurips_year"]
+            
+            if (chi_year == selected_chi_year && neurips_year == selected_neurips_year) {
+                console.log(chi_year);
+                if (data[i]["conference"] === "chi_clusters") {
+                    console.log(data[i]["topic"]);
+                    var chi_row = document.createElement('tr');
+                    chi_row.innerHTML = "<td>CHI</td><td>"+chi_year+"</td><td>"+data[i]["topic"]+"</td>"
+                    $('#topicsTableG tbody').append(chi_row)
+                    // for (let j = 0; j < 4; j+=1) {
+                    //     var chi_cluster_data = data[i]["chi_clusters_topics"][j];
+                    //     var chi_row = document.createElement('tr');
+                    //     chi_row.innerHTML = "<td>CHI</td><td>"+chi_year+"</td><td>"+chi_cluster_data["feat"]+"</td><td>"+chi_cluster_data["n"]+"</td>"
+                    //     $('#topicsTable tbody').append(chi_row)
+                    // }
+                }
+
+                if (data[i]["conference"] === "neurips_clusters") {
+                    var neurips_row = document.createElement('tr');
+                    neurips_row.innerHTML = "<td>NeurIPS</td><td>"+neurips_year+"</td><td>"+data[i]["topic"]+"</td>"
+                    $('#topicsTableG tbody').append(neurips_row)
+                }
+
+            }
+        }
+    })
+}
+
 
 
 $(document).ready(function() {
@@ -242,5 +293,6 @@ $(document).ready(function() {
     heatmapAbstracts();
     lineChartAbstracts();
     tfidfTopics();
+    gptTopics();
 
 });
