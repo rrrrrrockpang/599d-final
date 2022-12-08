@@ -38,7 +38,7 @@ function overviewBarChart() {
             xaxis: {autotick: false, title: "Year"},
             yaxis: {title: "# of Papers"},
             legend: {"orientation": "h", bgcolor: 'transparent', y: -0.2},
-            title: {text: "Publication Output in CHI and NeurIPS, 2002-2021"}
+            title: {text: "Publication Output in CHI and NeurIPS, 2001-2021"}
         };
 
         Plotly.newPlot('overviewBarChart', data, layout);
@@ -79,7 +79,7 @@ function heatmapTitles() {
         }];
        
         var layout = {
-            title: {text: "Cosine Similarity Between CHI and NeurIPS Paper Titles, 2002-2021"},
+            title: {text: "Cosine Similarity Between CHI and NeurIPS Paper Titles, 2001-2021"},
             xaxis: {autotick: false, title: "NeurIPS Year"},
             yaxis: {autotick: false, title: "CHI Year"},
             autosize: false,
@@ -124,7 +124,7 @@ function heatmapAbstracts() {
         }];
        
         var layout = {
-            title: {text: "Cosine Similarity Between CHI and NeurIPS Paper Abstracts, 2002-2021"},
+            title: {text: "Cosine Similarity Between CHI and NeurIPS Paper Abstracts, 2001-2021"},
             xaxis: {autotick: false, title: "NeurIPS Year"},
             yaxis: {autotick: false, title: "CHI Year"},
             autosize: false,
