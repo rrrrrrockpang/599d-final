@@ -145,7 +145,7 @@ function heatmapAbstracts() {
                 neurips_item.setAttribute('class', 'dropdown-item');
                 neurips_item.setAttribute('onclick', 'lineChartAbstracts(chi_yr=null,neurips_yr='+i+')');
                 neurips_item.innerHTML = i;
-                $('#neuripsDropdownYrs').append(neurips_item)
+                $('#neuripsDropdownYrs').append(neurips_item);
             }
         }
     })
@@ -203,6 +203,32 @@ function lineChartAbstracts(chi_yr, neurips_yr) {
     })
 }
 
+function tfidfTopics(chi_yr, neurips_yr) {
+    fetch("https://raw.githubusercontent.com/rrrrrrockpang/rrrrrrockpang.github.io/main/abstract_topics_tfidf.json")
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (data) {
+        for (let i = 0; i < data.length; i+=1) {
+            var chi_year = data[i]["chi_year"]
+            var neurips_year = data[i]["neurips_year"]
+
+            for (let j = 0; j < 4; j+=1) {
+                var chi_cluster_data = data[i]["chi_clusters_topics"][j];
+                var chi_row = document.createElement('tr');
+                chi_row.innerHTML = "<td>CHI</td><td>"+chi_year+"</td><td>"+cluster_data["feat"]+"</td><td>"+chi_cluster_data["n"]+"</td>"
+                $('#topicsTable tbody').append(chi_row)
+
+                var neurips_cluster_data = data[i]["neurips_clusters_topics"][j];
+                var neurips_row = document.createElement('tr');
+                neurips_row.innerHTML = "<td>NeurIPS</td><td>"+neurips_year+"</td><td>"+neurips_cluster_data["feat"]+"</td><td>"+neurips_cluster_data["n"]+"</td>"
+                $('#topicsTable tbody').append(neurips_row)
+            }
+        }
+    })
+}
+
+
 
 $(document).ready(function() {
     $(".citation").each(function() {
@@ -214,8 +240,9 @@ $(document).ready(function() {
     overviewBarChart();
     heatmapTitles();
     heatmapAbstracts();
+    lineChartAbstracts(chi_yr=null, neurips_yr=null);
 
-    lineChartAbstracts(chi_yr=null, neurips_yr=2019);
+    tfidfTopics(null, null);
 
 });
 
