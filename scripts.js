@@ -136,7 +136,7 @@ function heatmapAbstracts() {
             chi_item.innerHTML = i;
             $('#chiDropdownYrs').append(chi_item)
 
-            if (i < 2020) {
+            if (i < 2022) {
                 var neurips_item = document.createElement('a');
                 neurips_item.setAttribute('class', 'dropdown-item');
                 neurips_item.setAttribute('onclick', 'lineChartAbstracts(chi_yr=null,neurips_yr='+i+')');
