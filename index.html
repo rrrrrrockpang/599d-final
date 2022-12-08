@@ -61,8 +61,8 @@
       <a href="#related-work">Related Work</a><br>
       <a href="#method">Methodology</a><br>
       <a href="#findings">Findings</a><br>
-      Discussion and Future Work<br>
-      Conclusion<br>
+      <a href="#discussion">Discussion</a><br>
+      <a href="#conclusion">Conclusion</a><br>
       <a href="#materials">Materials</a>
 
     </div>
@@ -110,7 +110,7 @@
     
       <section id="findings">
         <h3>Findings</h3>
-        <p>We analyzed a total of 14,000 papers from CHI and NeurIPS published between 2001 and 2021. To provide an overview of our dataset, we plotted the number of publications in each conference against the year. As per <a href="#overviewBarChart">Figure 3</a>, the size of CHI grew consistently over the years whereas NeurIPS grew steadily until about 2016, from which it started experiencing much more rapid growth. </p>
+        <p>We analyzed a total of 14,000 papers from CHI and NeurIPS published between 2001 and 2021. We set <i>n = 100</i> and <i>k = 4</i> to obtain clusters of reasonable quality after some experimentation. To provide an overview of our dataset, we plotted the number of publications in each conference against the year. As per <a href="#overviewBarChart">Figure 3</a>, the size of CHI grew consistently over the years whereas NeurIPS grew steadily until about 2016, from which it started experiencing much more rapid growth. </p>
         <div id="overviewBarChart"></div>
         <figcaption>Figure 3: An overview of our dataset, by publication year.</figcaption>
         <!-- <div id="heatmapTitles"></div> -->
@@ -119,7 +119,7 @@
         <div id="heatmapAbstracts"></div>
         <figcaption>Figure 4: Heatmap of cosine similarity among paper abstracts in our dataset. </figcaption>
 
-        <p></p>
+        <p>The asymmetry in HCI-AI influence is made even more obvious if we consider time slices of one conference with respect to the entire 20-year span of the other conference. If we select any one NeurIPS year in <a href="#lineChartAbstractButtons">Figure 5</a> and view the variation in cosine similarity with respect to 20 years of CHI, we will see a generally positive trend, meaning that CHI paper embeddings are becoming more similar to NeurIPS paper embeddings. On the other hand, if we select any CHI year and view the variation in cosine similarity with respect to 20 years of NeurIPS, we will see a generally flat trend. </p>
         <div id="lineChartAbstractButtons" class="selectorDiv">
           
           <div id="chiBtnGroup" class="btn-group">
@@ -138,6 +138,15 @@
           </div>
         </div>
         <div id="lineChartAbstracts"></div>
+        <figcaption>Figure 5: Line chart of cosine similarity among paper abstracts in our dataset. Select a year in one of the conference buttons above to anchor it and see variations in cosine similarity with respect to the entire 20-year span of the other conference.</figcaption>
+      </section>
+
+      <section id="discussion">
+        <h3>Discussion</h3>
+      </section>
+
+      <section id="conclusion">
+        <h3>Conclusion</h3>
       </section>
 
       <section id="materials">
