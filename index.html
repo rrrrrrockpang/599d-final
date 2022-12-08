@@ -155,10 +155,38 @@
         <div id="lineChartAbstracts"></div>
         <figcaption>Figure 5: Line chart of cosine similarity among paper abstracts in our dataset. Select a conference-year combination using the above selectors to see variations in cosine similarity with respect to the entire 20-year span of the other conference.</figcaption>
 
-        <p>After obtaining our abstract clusters, we labelled each cluster with a topic by prompting GPT-3 (text-davinci-003, temperature = 0.2) to summarize the cluster into a keyphrase. Due to token limitations in our free trial of the OpenAI API, we chose to only label clusters published in the last 5 years. Even then, the output appeared to require some manual adjustment. For this view below, we show the top TF-IDF feature for each conference/year cluster instead.</p>
+        <p>After obtaining our abstract clusters, we labelled each cluster with a topic by prompting GPT-3 (text-davinci-003, temperature = 0.2) to summarize the cluster into a keyphrase. Due to token limitations in our free trial of the OpenAI API, we chose to only label clusters published in the last 5 years (2017 to 2021). Even then, the output appeared to require some manual adjustment, so we filtered out any non-sensical topics. Select a combination of CHI and NeurIPS years in the table below to see their cluster topics. </p>
 
         <div>
           <form>
+            <div id="chiYearSelector" class="form-group">
+              <label for="formChiYearG">Select CHI Year:</label>
+              <select class="form-control" id="formChiYearG" onchange="gptTopics()"></select>
+            </div>
+            <div id="neuripsYearSelector" class="form-group">
+              <label for="formNeuripsYearG">Select NeurIPS Year:</label>
+              <select class="form-control" id="formNeuripsYearG" onchange="gptTopics()"></select>
+            </div>
+          </form>
+
+          <table id="topicsTableG" class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Conference</th>
+                <th scope="col">Year</th>
+                <th scope="col">Topic</th>
+                <!-- <th scope="col">Cluster ID</th> -->
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+
+        <p>We also used a more classical approach to computing keywordsL TF-IDF. For this second table, we show the top TF-IDF feature for each conference/year cluster along with the number of abstracts containing that feature. Unlike with GPT-3, we were able to run this approach over the entire timespan of our dataset.</p>
+
+        <!-- <div>
+          <form> -->
 
      
         <div>
@@ -186,6 +214,8 @@
             </tbody>
           </table>
         </div>
+
+        
 
         
 
