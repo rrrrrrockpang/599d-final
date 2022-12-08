@@ -195,8 +195,8 @@ function lineChartAbstracts(chi_yr, neurips_yr) {
             title: {text: "Cosine Similarity Between CHI and NeurIPS Paper Abstracts"},
             xaxis: {autotick: false, title: x_axis},
             yaxis: {range: [0.85, 1], title: y_axis},
-            autosize: false,
-            height: 400,
+            // autosize: false,
+            // height: 400,
         };
 
         Plotly.newPlot('lineChartAbstracts', data, layout);
