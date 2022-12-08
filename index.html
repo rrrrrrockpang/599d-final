@@ -154,6 +154,10 @@
         <figcaption>Figure 5: Line chart of cosine similarity among paper abstracts in our dataset. Select a conference-year combination using the above selectors to see variations in cosine similarity with respect to the entire 20-year span of the other conference.</figcaption>
 
         <p>After obtaining our abstract clusters, we labelled each cluster with a topic by prompting GPT-3 (text-davinci-003, temperature = 0.2) to summarize the cluster into a keyphrase. Due to token limitations in our free trial of the OpenAI API, we chose to only label clusters published in the last 5 years. Even then, the output appeared to require some manual adjustment. For this view below, we show the top TF-IDF feature for each conference/year cluster instead.</p>
+
+        <div>
+          <form>
+
      
         <div>
           <form>
@@ -187,6 +191,20 @@
 
       <section id="discussion">
         <h3>Discussion</h3>
+        <h4>Opportunities to Generate Novel Research Directions</h4>
+
+        <p>Our analysis reveals that the intersection of AI and HCI has grown steadily over time. This presents opportunities to uncover new research directions at this intersection, but where should one start? Our interactive table above may aid this endeavour: by allowing mixing-and-matching topics from different conferences and years, users may find inspiration in the juxtaposition of topics. To take it a step farther, users may be interested in leveraging the generative capabilities of large language models to spawn new research ideas based on the topics in the table. Using <a href="https://chat.openai.com/chat">ChatGPT</a>, we found the following prompt structure to be effective in yielding an output that not only states a direction, but also elaborates on potential approaches and efficacy: <br>
+          
+          <div class="code-block">
+            <code>Generate a research direction for me given these topics: <br>
+              1. {...} <br>
+              2. {...} <br>
+              3. {...} <br>
+              {...}
+             </code>
+          </div>
+        </p>
+
         <h4>Limitations and Future Work</h4>
         <p>One limitation of our work is that we generated embeddings of each paper by encoding only the abstracts. While the abstract summarizes the essence of the paper, it lacks the details of the methodologies, related works, and results of the work. Future work may consider generating embeddings based on the full text of the paper. With a better representation of the papers in the semantic space, we would be able to compute similarity of papers more precisely. </p>
 
