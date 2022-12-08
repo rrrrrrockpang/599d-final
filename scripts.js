@@ -54,19 +54,17 @@ function heatmapTitles() {
         
         let [z, cYears, nYears] = [[], [], []];
 
-        for (let i = 0; i < data.length; i+=18) {
+        for (let i = 0; i < data.length; i+=21) {
             zRow = [];
-            for (let j = 0; j < 18; j++) {
+            for (let j = 0; j < 21; j++) {
                 zRow.push(data[i+j].score);
             }
             z.push(zRow);
 
         }
-        for (let i = 2001; i < 2021; i++) {
+        for (let i = 2001; i < 2022; i++) {
             cYears.push(i);
-            if (i < 2019) {
-                nYears.push(i);
-            }
+            nYears.push(i);
         }
 
         var data = [{
@@ -99,19 +97,17 @@ function heatmapAbstracts() {
 
         let [z, cYears, nYears] = [[], [], []];
 
-        for (let i = 0; i < data.length; i+=19) {
+        for (let i = 0; i < data.length; i+=21) {
             zRow = [];
-            for (let j = 0; j < 19; j++) {
+            for (let j = 0; j < 21; j++) {
                 zRow.push(data[i+j].Score);
             }
             z.push(zRow);
 
         }
-        for (let i = 2001; i < 2021; i++) {
+        for (let i = 2001; i < 2022; i++) {
             cYears.push(i);
-            if (i < 2020) {
-                nYears.push(i);
-            }
+            nYears.push(i);
         }
 
         var data = [{
