@@ -75,3 +75,8 @@ button p {
 section {
     margin-top: 2rem;
 }
+
+.selectorDiv {
+    text-align: center;
+    margin-top: 1rem;
+}

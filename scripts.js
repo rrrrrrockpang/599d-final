@@ -132,6 +132,74 @@ function heatmapAbstracts() {
         };
 
         Plotly.newPlot('heatmapAbstracts', data, layout);
+
+        for (let i = 2001; i < 2022; i++) {
+            var chi_item = document.createElement('a');
+            chi_item.setAttribute('class', 'dropdown-item');
+            chi_item.setAttribute('onclick', 'lineChartAbstracts(chi_yr='+i+',neurips_yr=null)');
+            chi_item.innerHTML = i;
+            $('#chiDropdownYrs').append(chi_item)
+
+            if (i < 2020) {
+                var neurips_item = document.createElement('a');
+                neurips_item.setAttribute('class', 'dropdown-item');
+                neurips_item.setAttribute('onclick', 'lineChartAbstracts(chi_yr=null,neurips_yr='+i+')');
+                neurips_item.innerHTML = i;
+                $('#neuripsDropdownYrs').append(neurips_item)
+            }
+        }
+    })
+}
+
+function lineChartAbstracts(chi_yr, neurips_yr) {
+    fetch("https://raw.githubusercontent.com/rrrrrrockpang/rrrrrrockpang.github.io/main/heatmapAbstracts.json")
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (data) {
+
+        let [x, y] = [[], []];
+        let [selected_conf, x_axis, y_axis] = ['', '', ''];
+        if (chi_yr) {
+            selected_conf = 'CHI';
+            x_axis = "NeurIPS Year";
+            y_axis = "Cosine Similarity with " + chi_yr + " " + selected_conf;
+            for (let i = 0; i < data.length; i+=1) {
+                if (data[i].CHI == chi_yr) {
+                    x.push(data[i].NeurIPS);
+                    y.push(data[i].Score);
+                }
+            }
+        }
+        else {
+            selected_conf = 'NeurIPS';
+            x_axis = "CHI Year";
+            y_axis = "Cosine Similarity with " + neurips_yr + " " + selected_conf;
+            for (let i = 0; i < data.length; i+=1) {
+                if (data[i].NeurIPS == neurips_yr) {
+                    x.push(data[i].CHI);
+                    y.push(data[i].Score);
+                }
+            }
+        }
+        
+        var data = [{
+            x: x,
+            y: y,
+            type: 'scatter',
+            mode: 'lines',
+            hoverongaps: false,
+        }];
+       
+        var layout = {
+            title: {text: "Cosine Similarity Between CHI and NeurIPS Paper Abstracts"},
+            xaxis: {autotick: false, title: x_axis},
+            yaxis: {title: y_axis},
+            autosize: false,
+            height: 400,
+        };
+
+        Plotly.newPlot('lineChartAbstracts', data, layout);
     })
 }
 
@@ -146,6 +214,8 @@ $(document).ready(function() {
     overviewBarChart();
     heatmapTitles();
     heatmapAbstracts();
+
+    lineChartAbstracts(chi_yr=null, neurips_yr=2019);
 
 });
 
