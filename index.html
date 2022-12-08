@@ -174,6 +174,13 @@
 
       <section id="discussion">
         <h3>Discussion</h3>
+        <h4>Limitations and Future Work</h4>
+        <p>One limitation of our work is that we generated embeddings of each paper by encoding only the abstracts. While the abstract summarizes the essence of the paper, it lacks the details of the methodologies, related works, and results of the work. Future work may consider generating embeddings based on the full text of the paper. With a better representation of the papers in the semantic space, we would be able to compute similarity of papers more precisely. </p>
+
+        <p>Another limitation is that when computing similarities, we only looked at the semantics of the papers (by encoding the abstracts). One additional relevant information that is not encoded in the text is the citation of the papers. Often, one would be able to tell if two papers are relevant by looking at their references. Including the citation information in the embedding would also help us find the intersecting papers of CHI and NeuRIPs papers. We considered using the SPECTER embeddings provided through the S2 API, but they were only available to a little under three-quarters of the papers in our dataset. Per the <a href="https://github.com/allenai/specter">SPECTER GitHub repository</a>, running SPECTER on our own machines will produce different results than those provided by the API due to differences in model versions. Future work may generate the SPECTER embeddings from scratch for standardization, and then use those embeddings for analysis.</p>
+
+        <p>Lastly, the topics generated using GPT-3 lack a rigorous evaluation for their faithfulness. While GPT-3 has shown to be a powerful language model, we still would like to verify if the topics generated reflect the semantics of the clusters of abstracts. Our evaluation method is to sample a small set of abstracts, and verify if the topics make sense. However, with this method, we do not know if the topics are faithful at scale. Thus, one compelling avenue for future work is to build a human-in-the-loop system for topic generation where a user can confirm or correct a generated title, as well as ask the model to explain its decision-making through a natural language interface such as ChatGPT.</p>
+
       </section>
 
       <section id="conclusion">
