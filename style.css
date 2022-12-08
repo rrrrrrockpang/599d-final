@@ -29,9 +29,9 @@ h6 {
     width: 100%;
 }
 
-/* select {
+.refs select {
     display: none !important;
-} */
+}
 
 img {
     text-align: center;
