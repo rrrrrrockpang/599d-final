@@ -1,0 +1,1332 @@
+[
+  {
+    "chi_year": 2017,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "Investigating the Effects of Stereo Rendering on Volumetric 3D Displays",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Feasibility of Personal Object Recognizers for Visually Impaired People Using Transfer Learning and Deep Learning Systems",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "een People with and without Visual Impairments: Investigating the Benefits of Gesture Recognition Technology.",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "Investigating the Impact of Mixed Reality Systems on 3D Drawing for Novice Users",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "Estimating Underlying Demand from Session Data Using Demand-Aware Graph Neural Networks",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "Advantages and Disadvantages of Directed and Undirected Latent Variable Models and the Novel Approach of GibbsNet",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "Evaluating the Effectiveness of Data Augmentation for Deep Learning Models",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "Verifying the Correctness of Inference Results Using Zero-Knowledge Proofs in Deep Neural Networks.",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "Improving Label Quality in Crowdsourcing for Machine Learning Systems",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "Improving Message Transportation Through Audience-Friendly Gestures for 3D Interaction.",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "Investigating the Effectiveness of Sparse Haptic Proxies for Volumetric 3D Displays",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "Estimating Cognitive Model Parameters from Behavioral Data Using Bayesian Optimization Algorithms",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "Learning Policies from Example Expert Behavior without Interaction or Access to Reinforcement Signal",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Automatically Learning Hyper-parameters for Graph Embedding Methods",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "Evaluating Generative Models Using Precision and Recall for Distributions",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Early Prediction for Fast and Efficient Classification of Sequential Data on Tiny Devices",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "Automatically Generating Engaging Learning Content Using Automata Theory",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "Investigating the Effectiveness of Sparse Haptic Proxies for Virtual Reality Interaction",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Potential of Wi-Fi-Based In-Air Interaction for Ambient Intelligence and Augmented Reality Applications",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "The Benefits of Localized Haptic Texture Rendering for Tactile Devices",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Interpretability of Recurrent Neural Networks for Sentiment Analysis",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Optimizing High-Dimensional Blackbox Functions with ASEBO Algorithm",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Learning Programmatic Policies from Demonstrations for Reinforcement Learning",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Adapting Regularization Techniques for Reinforcement Learning to Improve Performance on Generalization Benchmarks",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Sparse Haptic Proxies for Enhancing Virtual Reality Experiences",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "Investigating Multi-User Interaction at Large Display Walls with the Group Interaction Analysis Toolkit (GIAnT)",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "Investigating Visual Distortions of Prototype Curved Displays for Volumetric Head-Tracked Displays",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Personal Object Recognizers for Visually Impaired People",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "Investigating the Effects of L2 Normalisation on Local Descriptor Learning for Improved Performance in Matching, Verification, and Retrieval Tasks.",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "Comparing the Performance of Optimal Decision Trees Trained with Mixed-Integer Programs and Heuristic Approaches",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Adversarial Training Using Deep Generative Models for Improved Robustness and Accuracy",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "Investigating Strategies for Detecting Abusive Behavior in Online Communities Using Bag of Communities (BoC)",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "Leveraging Crowd Disagreements to Improve Label Quality in Crowdsourcing",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "Investigating the Effects of Stereo Rendering on Volumetric 3D Displays",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "Self-Supervised Learning for Document Understanding with UniDoc",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Effectiveness of Combining Gradient-Based and Feature-Based Saliency Maps for Explaining the Decisions of Convolutional Neural Networks in Object Detection and Segmentation Tasks",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "goals for the achiever. We evaluate LEXA on a suite of challenging 3D environments and show that it can learn to solve a wide range of tasks without any supervision.",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2017,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "Comparing the Efficiency of Subgame Solving Techniques in Imperfect-Information Games",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Generative Neural Networks for Digital Ink Editing",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Visual Analytics for Anomaly Detection in Geospatial Data.",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Combining Hand Motion and Pen Drawing for Digital 3D Authoring",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Use of Imperfect 3D Content for Photo-Realistic Image Synthesis with Deferred Neural Rendering",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "Comparing the Performance of Label Distribution Learning Algorithms",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "Improving Data Efficiency in Deep Reinforcement Learning Using Prior Knowledge",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "Distributed and Scalable Algorithms for Decentralized (PO)MDPs in Multiagent Systems",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "Improving Video Annotation Using Ensemble Methods Leveraging a Crowd Workforce",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "Investigating the Effect of Color Schemes on the Perception of Continuous Maps",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Use of Imperfect 3D Content for Photo-Realistic Image Synthesis with Deferred Neural Rendering",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Visual Attention for Face Frontalization",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "Investigating the Relationship Between Neural Activity and Decision-Making Using Computational and Deep Learning Models",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Recurrent Transformer Networks and Variational Autoencoders for Unsupervised Feature Learning and Generative Modeling of Image Sequences",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "Investigating the Use of Quantum Graphical Models and Hilbert Space Embeddings for Robust Deep Learning Classifiers in the Presence of Label Noise.",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Use of Imperfect 3D Content for Photo-Realistic Image Synthesis with Deferred Neural Rendering",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "The Impact of Typography Design on User Reading Experience",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "The Benefits of Combining Motion and Sound Data for Handwritten Digit Recognition Using Digital Pens",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Potential of Digital Ink with Generative Neural Networks",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Reverse Process of Graph Embedding: Reconstructing Graph Structures from Embedding Vectors",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Surround Modulation for Improving Performance and Training Speed of Convolutional Neural Networks",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Scalable Deep Learning for Web-Scale Recommendation Systems and Multi-Person Pose Estimation in Video",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Comparing the Performance of Variational Autoencoders, Flow-Based Models, and Autoregressive Models for Generative Modeling",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "The Benefits of Cross-Device Training for Learning-Based Gaze Estimation",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "Combining Hand Motion and Pen Drawing for Intuitive 3D Sketching",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "The Benefits of RFID-Based Interactive Building Block Systems for Human-Computer Interaction.",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Use of Imperfect 3D Content for Photo-Realistic Image Synthesis with Deferred Neural Rendering",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "Improving Accuracy of Deep Learning-Based Methods for Solving Partial Differential Equations with Graph Neural Networks",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "Theoretical Analysis of Sparse Coding Algorithms",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "Anomaly Detection in Timeseries Data Using Deep Learning and Probabilistic Graphical Models",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "Generative Models for Stroke-Based Chinese Character Generation",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Potential of Visual Exploration for Personalized Typography Designs in MOOCs",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Visualizing Program Variables in Source Code for Improved Debugging and Program Understanding",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Potential of Generative Neural Networks for Digital Ink Editing",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Use of Imperfect 3D Content for Photo-Realistic Image Synthesis with Deferred Neural Rendering",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "Investigating the Impact of Sample Size and Task Similarity on Transferability in Multi-Source Transfer Learning with Geometric Negation Embedding for Deep Reinforcement Learning Agents.",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "Improving Image Synthesis with Generative Adversarial Networks and Visual Token Generators",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "The Benefits of Adversarial Topic Models for Supervised Learning",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2018,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "The Benefits of Adversarial Training and Semi-Supervised Learning for Transfer Learning",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "Optimizing Interactivity and Performance in User-Centered Hierarchy Structures",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Mechanisms of Illusory Feeling of Mass Properties in Human Hands",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "The Ethical Implications of Early Warning Dashboards in Higher Education",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Automated Batching for Dynamic Neural Network Toolkits",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Session-Based Recommendations for Online Video and E-Commerce Websites",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "The Benefits of the Hierarchical Variational Autoencoder (HVAE) for Directed Latent Variable Models",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Decoupling Mean and Covariance Functions in Variational Gaussian Process Models for Large-Scale Inference",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Shape Structuralizer for Novice Designers in Fabrication Projects",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "Enhancing Realism in Virtual Reality with ElasticVR: A Wearable Device for Providing Resistive Force and Impact Feedback",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "The Ethical Implications of Early Warning Dashboards in Higher Education",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "The Benefits of Paragraph-Based Faded Text and Multi-User Tracking and Activity Recognition Using Commodity WiFi.",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "Evaluating the Performance of Dynamic Incentive Mechanisms for Crowdsourcing",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "Differentiable Rendering for Inverse Rendering Tasks in Computer Graphics",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "imining the effectiveness of semi-supervised learning for seismic event classification.",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "Investigating the Effectiveness of Hardware Design Obfuscation for Resisting Reverse Engineering Attacks and IP Piracy",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of SmartEye: A Mobile System for Taking High-Quality Photos with Personalized Composition Preferences",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "Enhancing Interactions with IoT Devices Through Rich Touch and Object Sensing",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "Analyzing and Optimizing Hierarchical Structures for Item Retrieval and Selection Tasks",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "The Benefits of Using Perspective Points as an Intermediate Representation for 3D Object Detection",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Automating Learning Rate Tuning for Stochastic Gradient Methods with Statistical Adaptive Stochastic Approximation (SASA)",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Investigating Batch Policy Optimization for Cost-Sensitive Classification and Contextual Bandits",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Potential of Hands as a Natural Interface for Object Recognition Applications by Blind People",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "Investigating the Effectiveness of MultiTrack for Multi-User Tracking and Activity Recognition in Integrated Circuit Supply Chain Security",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "Understanding Human Perception of Algorithmic Sorting of Rated Items",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "The Ethics and Impact of Early Warning Dashboards in Higher Education",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Temporal Graph Convolutional Networks for Biomedical Term Relationships in Hypothesis Generation",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "Safe Reinforcement Learning for Autonomous Agents in Safety-Critical Applications",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Sparse Training for Neural Networks",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of SmartEye: A Mobile System for Taking High-Quality Photos with Good Composition",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "Enhancing IoT Experiences with Rich Touch and Object Sensing",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "The Ethics and Impact of Early Warning Dashboards in Higher Education",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Potential of Multi-User Tracking and Activity Recognition Using Commodity WiFi Devices",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "Improving Training Stability of Energy-Based Models Using Variational Bounds and Gradient Penalty",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Continuous Token Embeddings for Neural Agents in Reinforcement Learning Settings",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Generating Multiple Saliency Maps for Image Classification with Convolutional Neural Networks",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2019,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "Investigating the Impact of Algorithmic Disparity on Federated Learning Utilization",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "Automating the Design Process of Mobile User Interfaces with Neural Network Models",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "Exploring Opportunities for Self-Supervised Learning of Acoustic Events in Mixed Reality Environments",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "The Benefits of Wearable Microphone Jammers and ElastOscillation for Enhancing Privacy and VR Experiences",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "Investigating the Effect of RSVP Display Parameters on User Information Processing Ability Using EEG",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Generative Adversarial Networks for Semi-Supervised Learning",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "Learning Representations Invariant to Detrimental Factors Using Adversarial Minimax Games",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "The Benefits of StructurED Embeddings for Analyzing Structured Data",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "Comparing Non-Bayesian and Bayesian Approaches to Estimating Predictive Uncertainty in Deep Neural Networks",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Combining Machine and Human Assistance for Audio-Visual Slideshows",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "Improving User Interaction with Data APIs Through Automation",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "Automating the Design of Compound Icons with ICONATE",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Force Feedback from Damped Oscillation in Virtual Reality Experiences.",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "Improving Predictive Healthcare Tasks with Multilevel Medical Embedding and Knowledge Distillation",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Neural Networks for Long-Range Visual Recognition Tasks",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "Assessing the Performance of Machine Learning Algorithms Through Algorithmic Assurance.",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "Improving Robustness to Label Noise in Deep Neural Network Classifiers with Trusted Data",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Automated Audio-Visual Slideshows for Enhancing Text Comprehension.",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "Improving Usability in Open-Source Software Through Argumentation Model-Based Automation",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Design Space of Visual Search Tasks with Deep Neural Networks",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Investigating Trade-Offs in Data Augmentation and Adversarial Training for Robustness to Distributional Shift in Computer Vision",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Exploring Interpretability and Reliability of Recurrent Neural Networks for Physiological Time-Series Analysis",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Improving Transfer Learning Performance with Domain-Aware Representations",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Improving Performance of Embedding-Based Neural Network Models for Extreme Classification Settings with Data Augmentation and Regularization Techniques.",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "Enhancing Virtual Reality Experiences with ElastOscillation Force Feedback",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "Automating the Design of Compound Icons for Rapid Ideation and Exploration.",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Automated Techniques for Designing Mobile User Interfaces",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Potential of Visual Information Flow (VIF) in Infographic Design",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Unified Implicit and Explicit Surface Representation for 3D Primitive Reconstruction",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "Combining Reinforcement Learning and Imitation Learning to Overcome Practical Challenges in Real World Robotics",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "Unsupervised Learning of Dense Representations for Object Goal Navigation",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Combining Deep Reinforcement Learning and Evolution Strategies for Feature Disentanglement",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "Automating the Process of Online Fraud Detection with Interactive Visualization Systems",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "The Use of Deep Learning for Detecting Affective States from Text Typing Behavior on Smartphones",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "Strategies for Improving Patient-Centered Outcomes in Adolescents with Type 1 Diabetes Mellitus Through Shared Decision Making.",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Wearable Microphone Jammers for Enhanced Privacy in a Surveillance Society.",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "Estimating Epistemically Uncertain Neural ODEs with Distributional Gradient Matching (DGM)",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "Design and Evaluation of Graph Neural Network Accelerators for Real-World Applications",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Multi-Task Metric Learning for Deep Metric Learning and Zero-Shot Transfer Tasks",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2020,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "utative rewards, and demonstrate empirically that our agents can learn to communicate in a zero-shot setting.\n\nHow Neural Agents Can Leverage Continuous Representations for Discrete Communication in Reinforcement Learning Settings",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Interactive Interfaces for Sketch Vectorization",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "Optimizing Quadrotor Camera Pose for Aesthetically Pleasing Aerial Footage",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "Investigating the Effectiveness of Visual Analytics for Proctoring Online Exams",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2017,
+    "conference": "chi_clusters",
+    "topic": "Improved Dexterity in Electrical Muscle Stimulation (EMS) Devices Through Interossei/Lumbricals Muscle Stimulation",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "Comparing the Performance of Model-Free Deep Reinforcement Learning Algorithms and Label Distribution Learning Forests.",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "Leveraging Variational Autoencoders and Policy Networks for Imitation Learning in Robotics",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "Comparing the Performance of Periodic Implicit Generative Adversarial Networks (π-GAN) for 3D-Aware Image Synthesis with Existing Approaches",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2017,
+    "conference": "neurips_clusters",
+    "topic": "Comparing the Effectiveness of Recurrent Neural Networks and Convolutional Autoencoders for Learning Latent Representations from Long Text Sequences",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Data-Driven Microgestures for Robust Gestural Interactions While Holding Objects",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "Improving Accessibility and Usability of Annotated Text Corpora for Linguists.",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Automated Proctoring for Online Exams and Mixed-Initiative Learning Frameworks for Musical Instrument Instruction",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2018,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Electrical Muscle Stimulation (EMS) and Foldable Haptic Devices for Active Biometric Authentication and Mixed Reality Environments",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "Comparing Representations in Neural Networks Using Projection Weighted CCA",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "Accelerating High-Dimensional Convolutional Neural Networks with an Acceleration Network",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2018,
+    "conference": "neurips_clusters",
+    "topic": "The Benefits of Multi-Task Learning for Deep Learning Regularization Using ROCK Architecture",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "Optimizing Quadrotor Camera Pose for Aesthetically Pleasing Aerial Footage",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Electrical Muscle Stimulation for Biometric Authentication and Dexterity in Interactive Systems",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "Automating the Design Process for Digital Textiles Using Deep Learning",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2019,
+    "conference": "chi_clusters",
+    "topic": "Automated Proctoring of Online Exams Using Visual Analytics",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Comparing the Effectiveness of Domain Adaptation Methods on 3D Point Cloud Data",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Investigating Negative Transfer in Fine-Tuning Neural Networks for Transfer Learning",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of the Similarity Principle for Transfer Learning",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2019,
+    "conference": "neurips_clusters",
+    "topic": "Investigating Trade-Offs in Robustness to Distributional Shift Through Data Augmentation Techniques",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "Self-Supervised Techniques for Generating Representations of GUI Screens and Components",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "Designing Effective Interview Chatbots with Quantified Performance Metrics",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "Improving the Learning Experience of Musical Instruments Using Online Instructional Videos",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2020,
+    "conference": "chi_clusters",
+    "topic": "Exploring Interoceptive Interaction for Meditation Through Thermal Metaphors",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "Comparing the Performance of Deep Active Inference Agents in Complex Continuous State-Spaces with Reward-Based Counterparts",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "Exploring the Benefits of Deep Reinforcement Learning for Autonomous Decision-Making in UAV Swarms",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "Comparing the Performance of Denoising Score Matching with Generative Adversarial Networks for Image Generation",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2020,
+    "conference": "neurips_clusters",
+    "topic": "An Analysis of Multi-Agent Imitation Learning for Real-World Multi-Agent Tasks",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Feasibility of Robust Gestural Interactions Using Microgestures",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "Exploring the Benefits of Electrical Muscle Stimulation (EMS) for Active Biometric Authentication",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "Leveraging Social VR Platforms for HCI Evaluations",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2021,
+    "conference": "chi_clusters",
+    "topic": "Synthesizing Natural Virtual Pet Behaviors in Mixed Reality",
+    "cluster_id": 3
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "Improving Memory Retention in Reinforcement Learning Agents with Hierarchical Chunk Attention Memory (HCAM)",
+    "cluster_id": 0
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "Optimizing Deep Neural Networks for Optical Processing Units (OPUs) in Edge Computing Applications",
+    "cluster_id": 1
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "The Benefits of Transformer Networks for 3D Scene Reconstruction",
+    "cluster_id": 2
+  },
+  {
+    "chi_year": 2021,
+    "neurips_year": 2021,
+    "conference": "neurips_clusters",
+    "topic": "The Benefits of Knowledge Transfer in Continual Learning for Overcoming Catastrophic Forgetting",
+    "cluster_id": 3
+  }
+]
