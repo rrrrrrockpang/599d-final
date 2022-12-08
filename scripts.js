@@ -43,19 +43,19 @@ function overviewBarChart() {
     })
 }
 
-// function heatmapTitles() {
-//     fetch("https://raw.githubusercontent.com/rrrrrrockpang/rrrrrrockpang.github.io/main/heatmapTitles.json")
+// function heatmapSpecter() {
+//     fetch("https://raw.githubusercontent.com/rrrrrrockpang/rrrrrrockpang.github.io/main/heatmapSpecter.json")
 //     .then(function (response) {
 //         return response.json();
 //     })
 //     .then(function (data) {
-        
+
 //         let [z, cYears, nYears] = [[], [], []];
 
 //         for (let i = 0; i < data.length; i+=21) {
 //             zRow = [];
 //             for (let j = 0; j < 21; j++) {
-//                 zRow.push(data[i+j].score);
+//                 zRow.push(data[i+j].Score);
 //             }
 //             z.push(zRow);
 
@@ -75,14 +75,15 @@ function overviewBarChart() {
 //         }];
        
 //         var layout = {
-//             title: {text: "Cosine Similarity Between CHI and NeurIPS Paper Titles, 2001-2021"},
+//             title: {text: "Cosine Similarity Between CHI and NeurIPS Paper Abstracts, 2001-2021"},
 //             xaxis: {autotick: false, title: "NeurIPS Year"},
 //             yaxis: {autotick: false, title: "CHI Year"},
 //             autosize: false,
 //             height: 600,
 //         };
 
-//         // Plotly.newPlot('heatmapTitles', data, layout);
+//         Plotly.newPlot('heatmapSpecter', data, layout);
+        
 //     })
 // }
 
@@ -237,7 +238,7 @@ $(document).ready(function() {
     });
 
     overviewBarChart();
-    // heatmapTitles();
+    // heatmapSpecter();
     heatmapAbstracts();
     lineChartAbstracts();
     tfidfTopics();
